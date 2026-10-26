@@ -1,0 +1,50 @@
+{
+ "queen_fire": {
+  "name_bg": "Кралица Огън",
+  "name_en": "Queen of Fire",
+  "bg_text": "Кралицата на Огъня е магнетичната създателка — жена на страстта, интуитивното действие, увереността и жизнената сила. Тя вдъхновява, привлича и запалва другите със собственото си присъствие. Не чака разрешение да бъде себе си. Тя е свързана с енергията на Овен, Лъв и Стрелец — смела, творческа, свободолюбива и способна да превръща импулса в движение.",
+  "en_text": "The Queen of Fire is the magnetic creator — an archetype of passion, intuitive action, confidence, and vitality. She inspires, attracts, and ignites others through her presence. She does not wait for permission to be herself. She embodies the energy of Aries, Leo, and Sagittarius — courageous, creative, freedom-loving, and capable of turning impulse into movement."
+ },
+ "king_fire": {
+  "name_bg": "Крал Огън",
+  "name_en": "King of Fire",
+  "bg_text": "Кралят на Огъня е владетелят и героят — архетип на волята, лидерството, амбицията и съзиданието. Той има визия и силата да я поведе към реализация. Носи увереност, смелост и естествен авторитет. В него се срещат Овенът-пионер, Лъвът-владетел и Стрелецът-изследовател — човек, който иска да остави следа и да разшири границите на възможното.",
+  "en_text": "The King of Fire is the ruler and the hero — an archetype of willpower, leadership, ambition, and creation. He has a vision and the strength to lead it toward realization. He carries confidence, courage, and natural authority. Within him live Aries the Pioneer, Leo the Ruler, and Sagittarius the Explorer — someone who wants to leave a mark and expand the boundaries of what is possible."
+ },
+ "queen_earth": {
+  "name_bg": "Кралица Земя",
+  "name_en": "Queen of Earth",
+  "bg_text": "Кралицата на Земята е хранителката и въплътителката — архетип на плодородието, тялото, дома, природата и материалната сигурност. Тя знае как да превърне идеята в нещо реално и да създаде пространство, в което животът може да расте. Носи качествата на Телец, Дева и Козирог — чувственост, практичност, грижа и устойчивост.",
+  "en_text": "The Queen of Earth is the nurturer and the embodiment of the material world — an archetype of fertility, the body, home, nature, and material security. She knows how to turn an idea into something tangible and create a space in which life can grow. She carries the qualities of Taurus, Virgo, and Capricorn — sensuality, practicality, care, and resilience."
+ },
+ "king_earth": {
+  "name_bg": "Крал Земя",
+  "name_en": "King of Earth",
+  "bg_text": "Кралят на Земята е строителят и господарят на материята. Той създава структура, стабилност и ресурси и умее да мисли в перспектива. Неговата сила не е в бързината, а в способността да изгради нещо, което остава. В него се срещат Телецът-пазител, Девата-занаятчия и Козирогът-архитект.",
+  "en_text": "The King of Earth is the builder and master of the material world. He creates structure, stability, and resources, and knows how to think in the long term. His strength is not in speed, but in his ability to build something that lasts. Within him live Taurus the Guardian, Virgo the Craftsman, and Capricorn the Architect."
+ },
+ "queen_air": {
+  "name_bg": "Кралица Въздух",
+  "name_en": "Queen of Air",
+  "bg_text": "Кралицата на Въздуха е пророчицата и ясният ум — архетип на интелекта, независимостта, проницателността и истината. Тя вижда отвъд илюзиите и не се страхува да назове нещата такива, каквито са. Свързана е с Близнаци, Везни и Водолей — любопитство, обективност, комуникация и стремеж към свобода на мисълта.",
+  "en_text": "The Queen of Air is the seer and the clear mind — an archetype of intellect, independence, discernment, and truth. She sees beyond illusions and is not afraid to name things as they are. She is connected to Gemini, Libra, and Aquarius — curiosity, objectivity, communication, and the pursuit of intellectual freedom."
+ },
+ "king_air": {
+  "name_bg": "Крал Въздух",
+  "name_en": "King of Air",
+  "bg_text": "Кралят на Въздуха е мъдрецът и съдията — този, който подрежда хаоса чрез разум, логика и принципи. Той търси истината, разбира системите и взема решения чрез яснота, а не чрез импулс. В него се съчетават Близнаците-мислител, Везните-съдия и Водолеят-реформатор.",
+  "en_text": "The King of Air is the sage and the judge — the one who brings order to chaos through reason, logic, and principles. He seeks truth, understands systems, and makes decisions through clarity rather than impulse. Within him live Gemini the Thinker, Libra the Judge, and Aquarius the Reformer."
+ },
+ "queen_water": {
+  "name_bg": "Кралица Вода",
+  "name_en": "Queen of Water",
+  "bg_text": "Кралицата на Водата е мистичката и пазителката на дълбочината. Тя усеща невидимото, разбира емоциите и има силна връзка с интуицията и подсъзнанието. Тя не се нуждае от думи, за да разбере — тя чувства. Носи архетипите на Рака-пазител, Скорпиона-алхимик и Рибите-мистик.",
+  "en_text": "The Queen of Water is the mystic and guardian of depth. She senses what cannot be seen, understands emotions, and has a deep connection to intuition and the subconscious. She does not need words to understand — she feels. She carries the archetypes of Cancer the Guardian, Scorpio the Alchemist, and Pisces the Mystic."
+ },
+ "king_water": {
+  "name_bg": "Крал Вода",
+  "name_en": "King of Water",
+  "bg_text": "Кралят на Водата е емоционалният мъдрец — човек, който притежава дълбочина, но не е погълнат от собствените си емоции. Той умее да чувства силно и едновременно с това да остане центриран. Неговата сила е в състраданието, емоционалната зрялост и способността да държи пространство за другите. В него се срещат Ракът-пазител, Скорпионът-алхимик и Рибите-мистик.",
+  "en_text": "The King of Water is the emotional sage — someone who possesses great depth without being consumed by his own emotions. He knows how to feel deeply while remaining centered. His strength lies in compassion, emotional maturity, and his ability to hold space for others. Within him live Cancer the Guardian, Scorpio the Alchemist, and Pisces the Mystic."
+ }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "bulgarian-mythology-tarot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bulgarian mythology tarot site",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test tests/*.test.js",
+    "seed": "node server/seed.js",
+    "seed:reset": "node server/seed.js --reset",
+    "content:export": "node server/content.js export",
+    "content:import": "node server/content.js import"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "dompurify": "^3.4.17",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "isolated-vm": "^6.2.0",
+    "pdfkit": "^0.20.2",
+    "sanitize-html": "^2.18.1",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1"
+  }
+}

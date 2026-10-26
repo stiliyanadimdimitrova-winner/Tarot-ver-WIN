@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Bulgarian mythology tarot</title>
+  <meta name="theme-color" content="#0b0716">
+  <link rel="preload" href="/fonts/cormorant-garamond-cyrillic-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body class="home is-intro">
+  <div class="bg" id="bg"></div>
+  <div class="veil"></div>
+
+  <header class="titles">
+    <h1 id="t-main">Bulgarian mythology tarot</h1>
+    <p id="t-sub">self-reflection</p>
+  </header>
+
+  <!-- Hologram: plays on every fresh load, then removes itself -->
+  <div class="holo" id="holo" role="status" aria-live="polite">
+    <canvas id="holo-canvas" aria-hidden="true"></canvas>
+    <p class="holo-text" id="holo-text"></p>
+    <button class="holo-skip" id="holo-skip" type="button">Skip / Пропусни</button>
+  </div>
+
+  <main class="panel" id="panel" aria-hidden="true">
+    <form id="form" novalidate autocomplete="off">
+      <div class="field">
+        <label for="dob">Date of birth / Дата на раждане</label>
+        <div class="dob-row">
+          <input id="dob" name="dob" type="text" inputmode="numeric" placeholder="DD.MM.YYYY" maxlength="10" aria-describedby="dob-error">
+          <button type="button" class="cal-btn" id="cal-btn" aria-label="Open calendar / Отвори календар" aria-expanded="false">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+          </button>
+          <div class="cal" id="cal" hidden></div>
+        </div>
+        <p class="error" id="dob-error" role="alert"></p>
+      </div>
+
+      <div class="gender" role="radiogroup" aria-label="Gender / Пол">
+        <button type="button" role="radio" aria-checked="false" data-gender="male">Male / Мъж</button>
+        <button type="button" role="radio" aria-checked="false" data-gender="female">Female / Жена</button>
+      </div>
+
+      <button class="spin" id="spin" type="submit" disabled>
+        <span class="spin-star" aria-hidden="true"></span>
+        <span>Spin / Завърти</span>
+      </button>
+    </form>
+  </main>
+
+  <button class="corner left" id="btn-intro" type="button">Intro / Интро</button>
+  <button class="corner right" id="btn-privacy" type="button">Privacy Policy / Поверителност</button>
+  <div class="lang" role="group" aria-label="Language / Език">
+    <button type="button" data-lang="bg" aria-pressed="true">BG</button>
+    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+  </div>
+
+  <dialog class="modal" id="modal">
+    <button class="modal-close" id="modal-close" type="button" aria-label="Close / Затвори">&times;</button>
+    <div class="modal-body" id="modal-body"></div>
+  </dialog>
+
+  <script src="/vendor/purify.min.js"></script>
+  <script src="/js/common.js"></script>
+  <script src="/js/hologram.js"></script>
+  <script src="/js/home.js"></script>
+</body>
+</html>
